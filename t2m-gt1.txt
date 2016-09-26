@@ -1,0 +1,100 @@
+mICF
+	Aloitus
+			Perustiedot
+				Kirjautuminen
+					Haluaisin
+						Apua arkeen
+							Menu
+								Omat arviot
+								Profiili
+								Apuja ja ohjeita
+								Tietoja sovellukesta
+								Imoitusasetukset
+								Kirjaudu ulos
+							Osallistuminen
+								Työ ja opiskelu
+									Opiskelu ja koulutus
+									Työnhaku
+									Työelämässä selviytyminen
+									Vapaaehtoistyö
+								Kotielämä
+								Raha-asioiden hoito
+								Yhteisötoiminta
+								Vapaa-aika
+								Liikkuminen
+								Ihmissuhteet
+								Katseleminen
+								Kuunteleminen
+								Tarkkaavuus
+								Päätöksen teko
+								Tehtävät ja kuormittuminen
+								Kommunikointi
+								Itsestä huolehtiminen
+							Ympäristö
+								Muilta saamani tuki
+								Muiden asenteet
+								Saamani palvelut
+								Tuotteet ja teknologiat
+								Esteettömyys
+								Varallisuus
+								Sää
+							Keho
+								Kipu
+								Nukkuminen
+								Tunteiden säätely
+								Energisyys
+								Hengitys
+								Ajattelu
+								Keskittymiskyky
+								Muisti
+								Rasituksen sieto
+								Lihastoiminnot
+								Iho
+								Virtsaaminen
+								Seksuaalisuus
+						Talouteni hallintaan
+						Vähemmän kipua
+						Nukkua paremmin
+						Sosiaalisia verkostoja
+						Matkustaa
+						Liikkua paremmin
+						Saada töitä
+	(lapsi) Aloitus
+		Elämäntilanne
+			(itseni) Perustiedot
+				Tarpeet
+					Arjen taidot
+					Kaverit
+						Kuvaile tarkemmin
+							Ihmisten väliset suhteet
+								Käyttäytyminen toisten kanssa
+									(jatkokysymyksiä)
+								Ihmissuhteiden hoitaminen
+								Lisää oma
+							Perhe ja ystävät
+								Ystävät
+								Tuttavat ja naapurit
+								Lisää oma
+							Asenteet
+								Tuttavien asenteet
+								Koulussa olevien ihmisten asenteet
+								Lisää oma
+							Lisää oma
+								(lomake)
+							Omat arviot
+							Menu
+								Anna palautetta
+								Profiili
+									Perustiedot
+									Vaihda salasana
+								Apuja ja ohjeita
+								Tietojasovelluksesta
+								Ilmoitusasetukset
+								Kirjaudu ulos
+					Perhe
+					Oppiminen
+					Vapaa-aika
+					Liikkuminen
+					Tulevaisuus
+					Terveys
+			(toisen)
