@@ -1,1 +1,21 @@
+*** Settings ***
+Library    Selenium2Library
+Suite Setup    Open Browser    http://www.google.fi    firefox
+Suite Teardown    Close Browser
 
+*** Test Cases ***
+Go To Wikipedia
+    Go To    https://www.wikipedia.org
+    Page Should Contain    Wikipedia
+
+Do A Search
+    Input Text    id=searchInput    JAMK
+    Submit Form    id=search-form
+    Wait Until Page Contains    JAMK University of Applied Sciences
+
+Look For Main Campus Image
+    Wait Until Page Contains Element    xpath=//img[@src='//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jamk-main_campus_-_east.jpg/238px-Jamk-main_campus_-_east.jpg']
+
+Change Language To Finnish
+    Click Link    xpath=//li[@class='interlanguage-link interwiki-fi']/a[@*]
+    Wait Until Page Contains    Jyväskylän ammattikorkeakoulu
