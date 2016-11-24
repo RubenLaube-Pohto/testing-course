@@ -1,0 +1,19 @@
+*** Settings ***
+Documentation    This is a resource file for wikipedia tests.
+Library    Selenium2Library
+
+*** Variables ***
+${STARTUP_PAGE}    http://www.google.fi
+${BROWSER}    firefox
+${WIKI}    https://www.wikipedia.org
+${SEARCH}    kissa
+${SEARCH_TITLE}    ${SEARCH} - Google Search
+${DELAY}    0.5
+
+*** Keywords ***
+Google Up
+    [Documentation]    Do a google search with set parameter
+    Input Text    id=lst-ib    ${SEARCH}
+    Submit Form    id=tsf
+    Wait Until Page Contains    Searches related to ${SEARCH}
+    Title Should Be    ${SEARCH_TITLE}
