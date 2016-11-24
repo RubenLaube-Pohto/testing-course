@@ -1,11 +1,14 @@
 *** Settings ***
-Library    Selenium2Library
-Suite Setup    Open Browser    http://www.google.fi    firefox
+Resource    resources.txt
+Suite Setup    Open Browser    ${STARTUP_PAGE}    ${BROWSER}
 Suite Teardown    Close Browser
 
 *** Test Cases ***
+Do A Google Search
+    Google Up
+
 Go To Wikipedia
-    Go To    https://www.wikipedia.org
+    Go To    ${WIKI}
     Page Should Contain    Wikipedia
 
 Do A Search
