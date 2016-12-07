@@ -4,12 +4,12 @@ Suite Setup    Open Browser    ${STARTUP_PAGE}    ${BROWSER}
 Suite Teardown    Close Browser
 
 *** Test Cases ***
-Do A Google Search
-    Google Up
+Create Wikipedia Account
+    Create Account
 
 Go To Wikipedia
     Go To    ${WIKI}
-    Page Should Contain    Wikipedia
+    Wait Until Page Contains    Wikipedia
 
 Do A Search
     Input Text    id=searchInput    JAMK
