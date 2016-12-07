@@ -3,17 +3,22 @@ Documentation    This is a resource file for wikipedia tests.
 Library    Selenium2Library
 
 *** Variables ***
-${STARTUP_PAGE}    http://www.google.fi
+${STARTUP_PAGE}    https://www.google.fi
 ${BROWSER}    firefox
 ${WIKI}    https://www.wikipedia.org
+${WIKISIGNUP}   https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
 ${SEARCH}    kissa
 ${SEARCH_TITLE}    ${SEARCH} - Google Search
 ${DELAY}    0.5
 
 *** Keywords ***
-Google Up
-    [Documentation]    Do a google search with set parameter
-    Input Text    id=lst-ib    ${SEARCH}
-    Submit Form    id=tsf
-    Wait Until Page Contains    Searches related to ${SEARCH}
-    Title Should Be    ${SEARCH_TITLE}
+Create Account
+    [Documentation]    Create account with wrong captcha
+    Go To    ${WIKISIGNUP}
+    Wait Until Page Contains Element    id=wpName2
+    Input Text     id=wpName2   asdasd
+    Input Password    id=wpPassword2    asdasdasd
+    Input Password    id=wpRetype     asdasdasd
+    Input Text     id=mw-input-captchaWord     asd
+    Submit Form     id=userlogin2
+    Wait Until Page Contains       Incorrect or missing CAPTCHA
